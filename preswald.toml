@@ -1,0 +1,22 @@
+[project]
+title = "Breast Tissue Impedance Measurements" 
+version = "0.1.0"
+port = 8501
+slug = "breast-tissue-dashboard"  
+entrypoint = "main.py"    
+
+[branding]
+name = "Breast Tissue Dashboard"
+logo = "images/Cancer-cells.png"
+favicon = "images/breast-canserCells.png"
+primaryColor = "#264653"
+accentColor = "#ef6f51"
+textColor = "#ffffff" 
+
+[data.data_csv]
+type = "csv"
+path = "data.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
